@@ -1,0 +1,28 @@
+.bod {
+	position:relative;
+	text-align: left;
+}
+
+.sticky2 { 
+	float: right;
+	top:2%; 
+	right:8px; 
+    margin-left:450px;
+    margin-top: 8px;
+}
+  .fixed {
+    position: fixed;
+    top: 0;
+  }
+
+ .bottom {
+ 	float: center;
+ }
+
+/* Small devices (tablets, 768px and up) */
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: @screen-md-min) { ... }
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: @screen-lg-min) { ... }

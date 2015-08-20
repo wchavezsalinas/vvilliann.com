@@ -1,0 +1,29 @@
+.icon-list li {
+  padding: 0 0 5px 20px;
+  display: block;
+  position: relative;
+}
+.icon-list li:before {
+  font-family: 'Glyphicons Halflings';
+  position: absolute;
+  left: 0px;
+  top:3px;
+  font-size:80%
+}
+
+.icon-list li:after {
+  font-family: 'Glyphicons Halflings';
+  position: absolute;
+  left: 0px;
+  top:3px;
+  font-size:80%
+}
+
+.checkmark li:before {
+ content: '\002b';
+}
+
+.checkmark li:after {
+ content: '\2212';
+}
+
