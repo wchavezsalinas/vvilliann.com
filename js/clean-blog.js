@@ -5,6 +5,23 @@
  */
 
 // Contact Form Scripts
+
+$(".loadButton").click(function()  {
+    var hidden = $(".hidden");
+    console.log(hidden);
+    var hiddenLength = hidden.length;
+    var limit = 5;
+    if(hiddenLength < limit)
+    {
+        limit = hiddenLength;
+        $(".loadButton").remove();
+    }
+    for(var i = 0; i < limit; i ++)
+    {
+        hidden[i].className = "";
+    }
+});
+
 $(function ($) {
     $(".navMenu").on('click', function (e) {
         if (!$('#overlay').length) {

@@ -16,7 +16,6 @@
 
 li {
 	line-height: 1;
-	padding-right: 10px;
 	list-style-position: inherit;
 
 }
@@ -158,4 +157,10 @@ li {
     50% {
         -webkit-transform: rotate(10deg);
     }
+}
+
+
+
+.loadButton {
+    padding-right: 10px;
 }

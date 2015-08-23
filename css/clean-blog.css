@@ -346,7 +346,6 @@ form .row:first-child .floating-label-form-group {
   text-transform: uppercase;
   font-size: 14px;
   letter-spacing: 1px;
-  border-radius: 0;
   /*padding: 15px 35px;*/
   margin-top: 15px;
   -webkit-font-smoothing: antialiased;
