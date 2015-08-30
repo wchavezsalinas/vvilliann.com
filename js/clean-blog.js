@@ -31,7 +31,7 @@ $(function ($) {
                              '<div class="col-xs-6" style="text-align:right; margin-left: -100px;"><h2><b><i>Social</i></b></h2></div></div>' +
                              '<div class="row" style="opacity: 1" ><div class="col-xs-6" style="margin-left: 50px"><a href="http://www.vvilliann.com"><h2 id="navContent">Home</h2></a></div>' +
                              '<div class="col-xs-6" style="text-align:right; margin-left: -100px;"><a href="http://twitter.com/wchavezsalinas" target="_blank"><h2 id="navContent">Twitter</h2></a></div></div>' +
-                             '<div class="row" style="opacity: 1" ><div class="col-xs-6" style="margin-left: 50px"><a href="resume.pdf"><h2 id="navContent">Resume</h2></a></div>' +
+                             '<div class="row" style="opacity: 1" ><div class="col-xs-6" style="margin-left: 50px"><a href="https://drive.google.com/file/d/0B0i06myS5G9bTjYzRlNoSVNxOGc/view"><h2 id="navContent">Resume</h2></a></div>' +
                              '<div class="col-xs-6" style="text-align:right; margin-left: -100px;"><a href="http://facebook.com/william.chavezsalinas" target="_blank"><h2 id="navContent">Facebook</h2></a></div></div>' +
                              '<div class="row" style="opacity: 1" ><div class="col-xs-6" style="margin-left: 50px"></div>' +
                              '<div class="col-xs-6" style="text-align:right; margin-left: -100px;"><a href="https://instagram.com/wchavezs/" target="_blank"><h2 id="navContent">Instagram</h2></a></div></div>' +

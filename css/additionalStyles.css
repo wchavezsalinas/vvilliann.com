@@ -134,6 +134,9 @@ li {
 .jiggly {
    -webkit-animation: jiggle 0.2s infinite;
    -webkit-transform: rotate(-3deg);
+   -moz-animation: jiggle 0.2s infinite;
+   -o-animation: jiggle 0.2s infinite;
+   animation: jiggle 0.2s infinite;
 }
 
 @keyframes jiggle {
