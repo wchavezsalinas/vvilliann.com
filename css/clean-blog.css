@@ -3,6 +3,9 @@
  * Copyright 2014 Start Bootstrap
  * Licensed under Apache 2.0 (https://github.com/IronSummitMedia/startbootstrap/blob/gh-pages/LICENSE)
  */
+.hidden {
+    display: none;
+}
 
 body {
   font-family: 'Lora', 'Times New Roman', serif;
