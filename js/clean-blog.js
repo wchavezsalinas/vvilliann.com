@@ -5,7 +5,7 @@
  */
 
 // Contact Form Scripts
-
+$("#overlay").hide();
 
 $(".loadButton").click(function()  {
     var hidden = $(".hidden");
@@ -33,17 +33,17 @@ $(function ($) {
     }).keyup(function (e) {
         if (e.which == 27) {
             $('#overlay').hide();
-            $('.navigation').addClass("hidden");
+            //$('.navigation').addClass("hidden");
 
         }
     }).blur(function (e) {
         $('#overlay').hide();
-        $('.navigation').addClass("hidden");
+        //$('.navigation').addClass("hidden");
     });
     $('body').click(function (e) {
         if (!$(e.target).is('.navMenu')) {
             $('#overlay').hide();
-            $('.navigation').addClass("hidden");
+            //$('.navigation').addClass("hidden");
         }
     });
 });

@@ -71,8 +71,6 @@ li {
     -moz-opacity:0.9;
     -khtml-opacity: 0.9;
     opacity: 0.9;
-
-
 }
 
 
@@ -100,7 +98,6 @@ li {
     opacity: 1;
     color: white;
     font-size: 20px;
-
 }
 
 .glyphicon-align-justify {
@@ -113,52 +110,65 @@ li {
     color: #0085A1;
 }
 
-.glyphicon-align-justify:hover i::before{
-	-webkit-animation: spin 2s infinite linear;
-	-moz-animation: spin 2s infinite linear;
-	-o-animation: spin 2s infinite linear;
-	animation: spin 2s infinite linear;
-}
-
-.fa:hover i::before{
-	-webkit-animation: spin 2s infinite linear;
-	-moz-animation: spin 2s infinite linear;
-	-o-animation: spin 2s infinite linear;
-	animation: spin 2s infinite linear;
-}
-
 .col-lg-8 {
 	position: static;
 }
 
 .jiggly {
    -webkit-animation: jiggle 0.2s infinite;
-   -webkit-transform: rotate(-3deg);
    -moz-animation: jiggle 0.2s infinite;
    -o-animation: jiggle 0.2s infinite;
    animation: jiggle 0.2s infinite;
+   -webkit-transform: rotate(-3deg);
+   -moz-transform: rotate(-3deg);
+   -ms-transform: rotate(-3deg);
+   -o-transform: rotate(-3deg);
+   transform: rotate(-3deg);
 }
 
 @keyframes jiggle {
     0% {
         -webkit-transform: rotate(-3deg);
+        -moz-transform: rotate(-3deg);
+        -ms-transform: rotate(-3deg);
+        -o-transform: rotate(-3deg);
+        transform: rotate(-3deg);
     }
     50% {
         -webkit-transform: rotate(3deg);
+        -moz-transform: rotate(3deg);
+        -ms-transform: rotate(3deg);
+        -o-transform: rotate(3deg);
+        transform: rotate(3deg);
     }
 }
 
 .smallJiggly {
    -webkit-animation: jiggle 0.2s infinite;
+   -moz-animation: jiggle 0.2s infinite;
+   -o-animation: jiggle 0.2s infinite;
+   animation: jiggle 0.2s infinite;
    -webkit-transform: rotate(-10deg);
+   -moz-transform: rotate(-10deg);
+   -ms-transform: rotate(-10deg);
+   -o-transform: rotate(-10deg);
+   transform: rotate(-10deg);
 }
 
 @keyframes jiggle2 {
     0% {
         -webkit-transform: rotate(-10deg);
+        -moz-transform: rotate(-10deg);
+        -ms-transform: rotate(-10deg);
+        -o-transform: rotate(-10deg);
+        transform: rotate(-10deg);
     }
     50% {
         -webkit-transform: rotate(10deg);
+        -moz-transform: rotate(10deg);
+        -ms-transform: rotate(10deg);
+        -o-transform: rotate(10deg);
+        transform: rotate(10deg);
     }
 }
 
